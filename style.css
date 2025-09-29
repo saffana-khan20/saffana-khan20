@@ -1,1 +1,76 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #e9ecef;
+  margin: 0;
+  padding: 50px;
+  text-align: center;
+}
+
+.app-container {
+  background: #ffffff;
+  max-width: 400px;
+  margin: auto;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+h1 {
+  color: #222;
+}
+
+.input-area input {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+}
+
+.input-area button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.input-area button:hover {
+  background-color: #0069d9;
+}
+
+#tasks {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#tasks li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f1f3f5;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#tasks li.done {
+  text-decoration: line-through;
+  color: #6c757d;
+}
+
+#tasks button {
+  background: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#tasks button:hover {
+  background: #c82333;
+}
 
